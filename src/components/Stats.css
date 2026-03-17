@@ -1,0 +1,160 @@
+/* ==================================
+   Stats Styles - Mobile App Theme
+   ================================== */
+
+.stats {
+  position: relative;
+  background: var(--bg-primary);
+  overflow: hidden;
+}
+
+.stats::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.05), rgba(0,0,0,0.05), transparent);
+}
+
+.stats__header {
+  text-align: center;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+.stats-card {
+  padding: 40px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-mid);
+}
+
+.stats-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.07);
+  border-color: rgba(229,57,53,0.1);
+}
+
+.stats-card__icon {
+  font-size: 36px;
+  margin-bottom: 20px;
+  display: inline-block;
+  background: rgba(0,0,0,0.03);
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  transition: all var(--transition-mid);
+}
+
+.stats-card:hover .stats-card__icon {
+  background: rgba(229,57,53,0.05);
+}
+
+.stats-card__value {
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.stats-card__label {
+  font-size: 1rem;
+  color: var(--text-light-secondary);
+  font-weight: 600;
+}
+
+/* Light glowing circles on cards */
+.stats-card__glow {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 80px;
+  height: 80px;
+  background: inherit;
+  border-radius: 50%;
+  opacity: 0.3;
+  transition: all var(--transition-mid);
+}
+
+.stats-card:hover .stats-card__glow {
+  background: var(--color-primary);
+  opacity: 0.1;
+}
+
+/* Tech stack pills updated */
+.stats__tech {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.stats__tech-label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.stats__tech-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.stats__pill {
+  background: white;
+  border: 1px solid var(--border-light);
+  color: var(--text-light-secondary);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 100px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  transition: all var(--transition-fast);
+}
+
+.stats__pill:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: rgba(229,57,53,0.04);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(229,57,53,0.1);
+}
+
+@media (max-width: 900px) {
+  .stats__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .stats__grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .stats-card {
+    padding: 32px 20px;
+  }
+  .stats-card__value {
+    font-size: 2.4rem;
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "navbar": {
+    "features": "Fonctionnalités",
+    "screenshots": "Captures",
+    "stats": "Stats",
+    "download": "Télécharger",
+    "getApp": "Obtenir l'App"
+  },
+  "hero": {
+    "badge": "App de gestion de véhicule",
+    "title1": "Conduisez Mieux.",
+    "title2": "Dépensez Moins.",
+    "title3": "Gardez une longueur d'avance.",
+    "subtitle": "Bomoto est le compagnon tout-en-un pour votre véhicule : traquez votre consommation, surveillez vos vidanges et obtenez des analyses précises de vos dépenses — le tout avec une interface magnifique et intuitive.",
+    "learnMore": "En savoir plus",
+    "rating": "Note sur 5",
+    "downloads": "Téléchargements",
+    "free": "Gratuit"
+  },
+  "features": {
+    "badge": "Pourquoi Bomoto ?",
+    "title": "Tout ce dont vous avez besoin pour",
+    "titleAccent": "votre véhicule",
+    "subtitle": "Oubliez les carnets papier. Gérez tout depuis votre poche avec une synchronisation parfaite et hors ligne.",
+    "item1": {
+      "title": "Suivi de Consommation",
+      "desc": "Enregistrez chaque plein et voyez l'évolution de votre consommation au kilomètre."
+    },
+    "item2": {
+      "title": "Rappels de Maintenance",
+      "desc": "Ne ratez plus une vidange. Bomoto vous alerte intelligemment selon vos trajets."
+    },
+    "item3": {
+      "title": "Statistiques Détaillées",
+      "desc": "Visualisez vos dépenses par mois, par type de trajet ou par période."
+    },
+    "item4": {
+      "title": "100% Hors Ligne",
+      "desc": "Vos données restent sur votre téléphone. Pas besoin d'internet pour noter vos pleins."
+    }
+  },
+  "screenshots": {
+    "badge": "Aperçu de l'App",
+    "title": "Interface Claire, Puissance",
+    "titleAccent": "Sous le Capot",
+    "subtitle": "Chaque écran est conçu pour la clarté et la rapidité. Trouvez ce dont vous avez besoin instantanément.",
+    "item1": { "label": "Tableau de Bord", "title": "Dashboard Intelligent", "desc": "Vue d'ensemble instantanée : efficacité, coûts et rappels d'entretien." },
+    "item2": { "label": "Plein Essence", "title": "Suivi du Carburant", "desc": "Notez chaque plein avec l'odomètre, le volume et le prix au litre." },
+    "item3": { "label": "Analyses", "title": "Analyses Profondes", "desc": "Visualisez les tendances avec des graphiques élégants." },
+    "item4": { "label": "Vidange", "title": "Alertes d'Entretien", "desc": "Enregistrez les vidanges et définissez vos intervalles de service." },
+    "ctaTitle": "Prêt à contrôler vos dépenses ?",
+    "ctaText": "Rejoignez les conducteurs qui utilisent Bomoto au quotidien."
+  },
+  "stats": {
+    "badge": "En chiffres",
+    "title": "Approuvé par des conducteurs",
+    "titleAccent": "Partout",
+    "downloads": "Téléchargements",
+    "rating": "Note App",
+    "languages": "Langues",
+    "free": "Gratuit",
+    "builtWith": "Construit avec"
+  },
+  "download": {
+    "title": "Prêt à",
+    "titleAccent": "mieux rouler ?",
+    "subtitle": "Bomoto est 100% gratuit et fonctionne hors ligne. Simple, puissant et conçu pour votre véhicule.",
+    "appleSub": "Télécharger sur l",
+    "googleSub": "Disponible sur",
+    "badge1": "Sans compte",
+    "badge2": "iOS & Android",
+    "badge3": "Hors ligne",
+    "badge4": "Version Française"
+  },
+  "footer": {
+    "tagline": "Le gestionnaire intelligent.<br/>Roulez moins. Économisez plus.",
+    "group1": "Application",
+    "group2": "Plateforme",
+    "group3": "Développeur",
+    "bottomText": "Fait avec ❤️ avec Flutter"
+  }
+}

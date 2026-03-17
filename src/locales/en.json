@@ -1,0 +1,82 @@
+{
+  "navbar": {
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "stats": "Stats",
+    "download": "Download",
+    "getApp": "Get the App"
+  },
+  "hero": {
+    "badge": "Vehicle Management App",
+    "title1": "Drive Smarter.",
+    "title2": "Spend Less.",
+    "title3": "Stay Ahead.",
+    "subtitle": "Bomoto is the all-in-one vehicle companion that tracks your fuel consumption, monitors oil changes, and gives you deep insights into your driving expenses — all with a beautiful, intuitive interface.",
+    "learnMore": "Learn more",
+    "rating": "5-Star Rating",
+    "downloads": "Downloads",
+    "free": "Free"
+  },
+  "features": {
+    "badge": "Why Bomoto?",
+    "title": "Everything you need for",
+    "titleAccent": "your vehicle",
+    "subtitle": "Forget paper logs. Manage everything from your pocket with perfect offline synchronization.",
+    "item1": {
+      "title": "Consumption Tracking",
+      "desc": "Record every fill-up and see how your mileage efficiency evolves."
+    },
+    "item2": {
+      "title": "Maintenance Reminders",
+      "desc": "Never miss an oil change again. Bomoto alerts you intelligently based on your trips."
+    },
+    "item3": {
+      "title": "Detailed Stats",
+      "desc": "Visualize your spending by month, trip type, or specific periods."
+    },
+    "item4": {
+      "title": "100% Offline",
+      "desc": "Your data stays on your phone. No internet needed to log your entries."
+    }
+  },
+  "screenshots": {
+    "badge": "App Screenshots",
+    "title": "Clean UI, Powerful",
+    "titleAccent": "Under the Hood",
+    "subtitle": "Each screen is crafted for clarity and speed. Find what you need instantly, log data in seconds.",
+    "item1": { "label": "Dashboard", "title": "Smart Dashboard", "desc": "Instant overview: fuel efficiency, costs, and service reminders at a glance." },
+    "item2": { "label": "Fuel Log", "title": "Fuel Tracking", "desc": "Log every fill-up with odometer, volume, and cost per liter." },
+    "item3": { "label": "Analytics", "title": "Deep Analytics", "desc": "Visualize trends over time with beautiful charts." },
+    "item4": { "label": "Oil Change", "title": "Maintenance Alerts", "desc": "Log oil changes and set up your service intervals." },
+    "ctaTitle": "Ready to take control of your costs?",
+    "ctaText": "Join thousands of drivers using Bomoto every day."
+  },
+  "stats": {
+    "badge": "By the numbers",
+    "title": "Trusted by drivers",
+    "titleAccent": "Everywhere",
+    "downloads": "Downloads",
+    "rating": "App Rating",
+    "languages": "Languages",
+    "free": "Free",
+    "builtWith": "Built with"
+  },
+  "download": {
+    "title": "Ready to",
+    "titleAccent": "drive better?",
+    "subtitle": "Bomoto is 100% free and works offline. Simple, powerful, and built for your vehicle.",
+    "appleSub": "Download on the",
+    "googleSub": "Get it on",
+    "badge1": "No account",
+    "badge2": "iOS & Android",
+    "badge3": "Offline",
+    "badge4": "English Version"
+  },
+  "footer": {
+    "tagline": "The smart vehicle manager.<br/>Drive less. Save more.",
+    "group1": "App",
+    "group2": "Platform",
+    "group3": "Developer",
+    "bottomText": "Built with ❤️ using Flutter"
+  }
+}

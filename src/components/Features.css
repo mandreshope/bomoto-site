@@ -1,0 +1,130 @@
+/* ==================================
+   Features Styles - Mobile App Theme
+   ================================== */
+
+.features {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.features__bg-orb {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, var(--color-primary-glow) 0%, transparent 70%);
+  right: -150px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation-duration: 14s;
+  opacity: 0.1;
+}
+
+.features__header {
+  text-align: center;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.feature-card {
+  padding: 40px 32px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gradient-primary);
+  transform: scaleX(0);
+  transition: transform var(--transition-mid);
+  transform-origin: left;
+}
+
+.feature-card:hover::before {
+  transform: scaleX(1);
+}
+
+.feature-card__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  flex-shrink: 0;
+  position: relative;
+}
+
+.feature-card__icon::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: inherit;
+  filter: blur(12px);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.feature-card__title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: var(--text-light);
+}
+
+.feature-card__desc {
+  font-size: 0.95rem;
+  color: var(--text-light-secondary);
+  line-height: 1.7;
+}
+
+.feature-card__arrow {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  color: var(--text-muted);
+  transition: all var(--transition-mid);
+  transform: rotate(0deg);
+  opacity: 0.5;
+}
+
+.feature-card:hover .feature-card__arrow {
+  color: var(--color-primary);
+  transform: translate(3px, -3px);
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .features__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .features__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .feature-card {
+    padding: 32px 24px;
+  }
+}
