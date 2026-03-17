@@ -11,8 +11,12 @@
 .download__orb-1 {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, var(--color-primary-glow) 0%, transparent 70%);
-  top: -10% ;
+  background: radial-gradient(
+    circle,
+    var(--color-primary-glow) 0%,
+    transparent 70%
+  );
+  top: -10%;
   left: -10%;
   opacity: 0.15;
 }
@@ -41,7 +45,11 @@
 .download__glow {
   position: absolute;
   inset: -100px;
-  background: radial-gradient(circle, rgba(229, 57, 53, 0.08) 0%, transparent 60%);
+  background: radial-gradient(
+    circle,
+    rgba(229, 57, 53, 0.08) 0%,
+    transparent 60%
+  );
   z-index: -1;
   opacity: 1;
 }
@@ -63,7 +71,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 32px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transform: rotate(-3deg);
   border: 1px solid var(--border-light);
   overflow: hidden;
@@ -132,14 +140,14 @@
 }
 
 .download__store-btn--android .download__store-sub {
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .download__store-btn--android:hover {
   background: #000;
   border-color: black;
   color: white;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
 .download__store-icon {
@@ -191,7 +199,7 @@
   font-size: 18px;
   width: 32px;
   height: 32px;
-  background: rgba(0,0,0,0.03);
+  background: rgba(0, 0, 0, 0.03);
   display: flex;
   align-items: center;
   justify-content: center;

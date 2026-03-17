@@ -11,9 +11,17 @@
 .stats::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.05), rgba(0,0,0,0.05), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.05),
+    rgba(0, 0, 0, 0.05),
+    transparent
+  );
 }
 
 .stats__header {
@@ -45,15 +53,15 @@
 
 .stats-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.07);
-  border-color: rgba(229,57,53,0.1);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.07);
+  border-color: rgba(229, 57, 53, 0.1);
 }
 
 .stats-card__icon {
   font-size: 36px;
   margin-bottom: 20px;
   display: inline-block;
-  background: rgba(0,0,0,0.03);
+  background: rgba(0, 0, 0, 0.03);
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -62,7 +70,7 @@
 }
 
 .stats-card:hover .stats-card__icon {
-  background: rgba(229,57,53,0.05);
+  background: rgba(229, 57, 53, 0.05);
 }
 
 .stats-card__value {
@@ -128,16 +136,16 @@
   font-weight: 600;
   padding: 8px 20px;
   border-radius: 100px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
   transition: all var(--transition-fast);
 }
 
 .stats__pill:hover {
   border-color: var(--color-primary);
   color: var(--color-primary);
-  background: rgba(229,57,53,0.04);
+  background: rgba(229, 57, 53, 0.04);
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(229,57,53,0.1);
+  box-shadow: 0 4px 12px rgba(229, 57, 53, 0.1);
 }
 
 @media (max-width: 900px) {

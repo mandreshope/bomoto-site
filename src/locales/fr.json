@@ -44,10 +44,26 @@
     "title": "Interface Claire, Puissance",
     "titleAccent": "Sous le Capot",
     "subtitle": "Chaque écran est conçu pour la clarté et la rapidité. Trouvez ce dont vous avez besoin instantanément.",
-    "item1": { "label": "Tableau de Bord", "title": "Dashboard Intelligent", "desc": "Vue d'ensemble instantanée : efficacité, coûts et rappels d'entretien." },
-    "item2": { "label": "Plein Essence", "title": "Suivi du Carburant", "desc": "Notez chaque plein avec l'odomètre, le volume et le prix au litre." },
-    "item3": { "label": "Analyses", "title": "Analyses Profondes", "desc": "Visualisez les tendances avec des graphiques élégants." },
-    "item4": { "label": "Vidange", "title": "Alertes d'Entretien", "desc": "Enregistrez les vidanges et définissez vos intervalles de service." },
+    "item1": {
+      "label": "Tableau de Bord",
+      "title": "Dashboard Intelligent",
+      "desc": "Vue d'ensemble instantanée : efficacité, coûts et rappels d'entretien."
+    },
+    "item2": {
+      "label": "Plein Essence",
+      "title": "Suivi du Carburant",
+      "desc": "Notez chaque plein avec l'odomètre, le volume et le prix au litre."
+    },
+    "item3": {
+      "label": "Analyses",
+      "title": "Analyses Profondes",
+      "desc": "Visualisez les tendances avec des graphiques élégants."
+    },
+    "item4": {
+      "label": "Vidange",
+      "title": "Alertes d'Entretien",
+      "desc": "Enregistrez les vidanges et définissez vos intervalles de service."
+    },
     "ctaTitle": "Prêt à contrôler vos dépenses ?",
     "ctaText": "Rejoignez les conducteurs qui utilisent Bomoto au quotidien."
   },
@@ -78,5 +94,43 @@
     "group2": "Plateforme",
     "group3": "Développeur",
     "bottomText": "Fait avec ❤️ avec Flutter"
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 18 mars 2026",
+    "intro": "Cette Politique de Confidentialité décrit comment Bomoto (« l'Application »), développée par RANDRIANARINJAKA Mandresy Fanantenana, collecte, utilise et protège vos informations lors de votre utilisation de l'application mobile.",
+    "storage": {
+      "title": "1. Stockage Local des Données",
+      "content": "L'application utilise une base de données SQLite locale via le plugin Drift. **IMPORTANT :** Aucune donnée saisie (odomètre, coûts, notes de carburant ou de maintenance) n'est synchronisée, transmise ou stockée sur nos serveurs. L'intégralité de vos informations reste dans la mémoire physique de votre téléphone."
+    },
+    "thirdParty": {
+      "title": "2. Services Tiers",
+      "admob": "Google AdMob : Nous utilisons ce service pour l'affichage de publicités. Google peut collecter des identifiants publicitaires (AAID sur Android, IDFA sur iOS) pour la personnalisation des annonces.",
+      "notifications": "Notifications Locales : L'application utilise des notifications système locales pour générer des rappels sur votre appareil sans passer par un serveur tiers."
+    },
+    "rights": {
+      "title": "3. Vos Droits et Suppression des Données",
+      "content": "Conformément au RGPD et à la CCPA, vous gardez le contrôle total sur vos données. Comme celles-ci sont stockées localement, vous pouvez les supprimer définitivement à tout moment en désinstallant l'application ou en effaçant les données/le cache dans les paramètres de votre appareil."
+    },
+    "permissions": {
+      "title": "4. Permissions Demandées",
+      "internet": "Accès Internet : Requis pour charger les publicités AdMob.",
+      "storage": "Stockage Local : Requis pour sauvegarder la base de données de vos véhicules."
+    },
+    "children": {
+      "title": "5. Confidentialité des Enfants",
+      "content": "L'Application ne s'adresse pas aux mineurs de moins de 13 ans. Nous ne collectons sciemment aucune information personnelle identifiable auprès d'enfants."
+    },
+    "accounts": {
+      "title": "6. Comptes Utilisateurs",
+      "content": "Bomoto n'utilise aucun système de compte ou de login. Votre identité reste anonyme pour nous."
+    },
+    "contact": {
+      "title": "7. Contact",
+      "content": "Pour toute question concernant cette politique, contactez-nous à : mandreshope@gmail.com"
+    },
+    "links": {
+      "admob": "Politique de confidentialité Google AdMob"
+    }
   }
 }

@@ -44,10 +44,26 @@
     "title": "Clean UI, Powerful",
     "titleAccent": "Under the Hood",
     "subtitle": "Each screen is crafted for clarity and speed. Find what you need instantly, log data in seconds.",
-    "item1": { "label": "Dashboard", "title": "Smart Dashboard", "desc": "Instant overview: fuel efficiency, costs, and service reminders at a glance." },
-    "item2": { "label": "Fuel Log", "title": "Fuel Tracking", "desc": "Log every fill-up with odometer, volume, and cost per liter." },
-    "item3": { "label": "Analytics", "title": "Deep Analytics", "desc": "Visualize trends over time with beautiful charts." },
-    "item4": { "label": "Oil Change", "title": "Maintenance Alerts", "desc": "Log oil changes and set up your service intervals." },
+    "item1": {
+      "label": "Dashboard",
+      "title": "Smart Dashboard",
+      "desc": "Instant overview: fuel efficiency, costs, and service reminders at a glance."
+    },
+    "item2": {
+      "label": "Fuel Log",
+      "title": "Fuel Tracking",
+      "desc": "Log every fill-up with odometer, volume, and cost per liter."
+    },
+    "item3": {
+      "label": "Analytics",
+      "title": "Deep Analytics",
+      "desc": "Visualize trends over time with beautiful charts."
+    },
+    "item4": {
+      "label": "Oil Change",
+      "title": "Maintenance Alerts",
+      "desc": "Log oil changes and set up your service intervals."
+    },
     "ctaTitle": "Ready to take control of your costs?",
     "ctaText": "Join thousands of drivers using Bomoto every day."
   },
@@ -78,5 +94,43 @@
     "group2": "Platform",
     "group3": "Developer",
     "bottomText": "Built with ❤️ using Flutter"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 18, 2026",
+    "intro": "This Privacy Policy describes how Bomoto (\"the Application\"), developed by RANDRIANARINJAKA Mandresy Fanantenana, collects, uses, and protects your information when you use the mobile application.",
+    "storage": {
+      "title": "1. Local Data Storage",
+      "content": "The application uses a local SQLite database via the Drift plugin. **IMPORTANT:** No user-entered data (odometer, costs, fuel or maintenance notes) is synchronized, transmitted, or stored on our servers. All your information remains in the physical memory of your phone."
+    },
+    "thirdParty": {
+      "title": "2. Third-Party Services",
+      "admob": "Google AdMob: We use this service to display advertisements. Google may collect advertising identifiers (AAID on Android, IDFA on iOS) for personalized ads.",
+      "notifications": "Local Notifications: The application uses local system notifications to generate reminders on your device without using any third-party servers."
+    },
+    "rights": {
+      "title": "3. Your Rights and Data Deletion",
+      "content": "In accordance with GDPR and CCPA, you maintain full control over your data. Since all data is stored locally, you can permanently delete it at any time by uninstalling the application or clearing the data/cache in your device settings."
+    },
+    "permissions": {
+      "title": "4. Requested Permissions",
+      "internet": "Internet Access: Required to load AdMob advertisements.",
+      "storage": "Local Storage: Required to save your vehicle database."
+    },
+    "children": {
+      "title": "5. Children's Privacy",
+      "content": "The Application is not intended for children under the age of 13. We do not knowingly collect any personally identifiable information from children."
+    },
+    "accounts": {
+      "title": "6. User Accounts",
+      "content": "Bomoto does not use any account or login system. Your identity remains anonymous to us."
+    },
+    "contact": {
+      "title": "7. Contact",
+      "content": "For any questions regarding this policy, please contact us at: mandreshope@gmail.com"
+    },
+    "links": {
+      "admob": "Google AdMob Privacy Policy"
+    }
   }
 }

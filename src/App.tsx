@@ -1,29 +1,37 @@
-import './App.css'
+import {
+  HashRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from 'react-router-dom'
+import { useEffect } from 'react'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import Screenshots from './components/Screenshots'
-import Stats from './components/Stats'
-import Download from './components/Download'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import Privacy from './pages/Privacy'
+
+// Scroll to top helper
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+  return null
+}
 
 function App() {
   return (
-    <div className="app">
-      <Navbar />
-      <main>
-        <Hero />
-        <div className="divider"></div>
-        <Features />
-        <div className="divider"></div>
-        <Screenshots />
-        <div className="divider"></div>
-        <Stats />
-        <div className="divider"></div>
-        <Download />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <ScrollToTop />
+      <div className="app">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy" element={<Privacy />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   )
 }
 
